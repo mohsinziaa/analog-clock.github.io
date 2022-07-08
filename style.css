@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@1,700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gentium Book Plus', serif;
+}
+
+.navbar{
+    background-color: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.navbar h1{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
+
+#clockContainer{
+    position: relative;
+    height: 40vw;
+    width: 40vw;
+    background: url('clock.png') no-repeat center;
+    background-size: 100%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#hours, #minutes, #seconds{
+    position: absolute;
+    background-color: black;
+    border-radius: 25px;
+    transform-origin: bottom;
+}
+
+#hours {
+    height: 26%;
+    width: 2%;
+    top: 23%;
+    left: 48.75%;
+}
+
+#minutes {
+    height: 31%;
+    width: 1.6%;
+    top: 19%;
+    left: 48.9%;
+}
+
+#seconds {
+    height: 35%;
+    width: 1.1%;
+    top: 14%;
+    left: 49.2%;
+}
+
+
+
+
+
+
